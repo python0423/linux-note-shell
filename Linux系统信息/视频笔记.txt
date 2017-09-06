@@ -1,0 +1,11 @@
+关闭SELinux，
+SELinux的配置文件在/etc/selinux/config 中，关闭其中的SELinux即可
+记住，操作前先备份，操作后检查；重启服务器然后生效
+
+临时生效
+使用getenforce来查看是否生效
+使用setenforce来设置是否生效，1表示启用
+
+如果想要在不重启时生效，改配置文件，同时也改临时生效
+
+
