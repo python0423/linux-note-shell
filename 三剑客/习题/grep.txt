@@ -1,3 +1,3 @@
 习题一：http://www.cnblogs.com/ggjucheng/archive/2013/01/13/2856896.html
-习题二：http://richier.blog.51cto.com/1447532/1630963
-习题山：http://www.linuxidc.com/Linux/2012-02/54789.htm （已完成）
+习题二：http://richier.blog.51cto.com/1447532/1630963	完成
+习题三：http://www.linuxidc.com/Linux/2012-02/54789.htm （已完成）

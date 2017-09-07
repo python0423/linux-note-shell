@@ -1,3 +1,5 @@
 https://www.tecmint.com/category/linux-commands/  			Linux资料查询网站
 http://blog.csdn.net/chaofanwei/article/details/11814029 		系统硬件信息查看
 http://blog.csdn.net/lhf_tiger/article/details/7102753 			查看系统信息命令
+http://www.cnblogs.com/xudong-bupt/p/3721210.html 			awk详解
+http://www.chinaunix.net/old_jh/7/16985.html				awk手册
