@@ -4,4 +4,4 @@ http://blog.csdn.net/lhf_tiger/article/details/7102753 			查看系统信息命令
 http://www.cnblogs.com/xudong-bupt/p/3721210.html 			awk详解
 http://www.chinaunix.net/old_jh/7/16985.html				awk手册
 https://linoxide.com/linux-command/					Linux命令博客
-
+http://www.178linux.com/						运维部落
