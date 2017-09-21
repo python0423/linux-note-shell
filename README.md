@@ -1,5 +1,9 @@
 # linux-note-shell
 *linux note, shell*
-### 本项目仓库用来存放对于Linux系统的学习，以及对于硬件知识的认知，全部以word的形式来记录笔记。
-### 每一个知识点的讨论都单独形成一个文件，Linux不是所有的基础知识全部都会出现在笔记上，只记录较难理解，容易混淆的知识点。
+### this project stores a ton of linux system-study notes with Word, and sort of research for hardware. 
+
+### this projetc is from zero to a high-levle study, and i will note all the problems and soluation during this process .
+
+## Writer.HanShuang
+## connect me :yongxingshenghuo@gmail.com
 
