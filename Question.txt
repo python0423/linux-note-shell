@@ -1,6 +1,5 @@
 Question 1: Do modification for startup item at runlevel 3, but how to roll back the default configuration?
-Answer    : there is no way to auto-handle it, partly due to linux shell program, so you could handle this problem
-with hand-actuated way;
+Answer    : there is no way to auto-handle it, partly due to linux shell program, so you could handle this problem with hand-actuated way;
 
 Question 2: how to use Emeditor fluently ? read tutorial 
 
@@ -15,7 +14,7 @@ Question 3: how does "administrator" use "sudo" to add system-commands for norma
 
 
 
-
+# Request 
 
 Request 1: please draw a sketch for linux boot process
 
