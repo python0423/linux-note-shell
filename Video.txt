@@ -1,5 +1,23 @@
-Question :
-Answer:
-bingo
-# 这是注释
-这不是注释
+Question : set and manage ssh
+
+Question : how to use visudo
+
+Question : how to use "which" to get full path of a command ?
+
+Question : study built-in commands , and where are they stored in ? 
+
+Question : learn encode and set system-encode to UTF-8 ,and support Chinese print 
+
+Question : why internet time is same with the system-time  on linux and windows ?
+
+Question : what is the "mission plan schemle" ?
+
+Qeustion : what does /dev/null device do ? 
+
+
+Request : read /etc/sudoers configuration file 
+Request : do a report about time,date commands 
+Request : set sys-time same with internet by "ntpdate" command
+
+Note : you could not use "which" to print built-in commands' path , that's a good tip
+Note : if some command could not be fought the full path by which, it's a built-in command
