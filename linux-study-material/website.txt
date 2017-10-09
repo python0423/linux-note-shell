@@ -8,3 +8,4 @@ http://www.178linux.com/						运维部落
 https://blog.coderzh.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/  个人博客
 https://teddysun.com/473.html   					install python2.7.13 on centos 6.6
 http://blog.csdn.net/redguardtoo/article/details/7222501		how to learn emacs
+http://www.cnblogs.com/duanxz/archive/2012/12/05/2802900.html    	linux time and date
