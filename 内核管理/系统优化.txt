@@ -1,2 +1,3 @@
 http://lspgyy.blog.51cto.com/526412/1308977 				Linux系统基本优化
 http://oldboy.blog.51cto.com/2561410/1336488				详细优化步骤
+

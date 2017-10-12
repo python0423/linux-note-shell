@@ -1,4 +1,4 @@
-计划 代号：清洁工
+# 代号：清洁工
 http://yangrong.blog.51cto.com/6945369/1321594
 http://oldboy.blog.51cto.com/2561410/1336488 
 http://www.cnblogs.com/zhzhao/p/4864209.html
@@ -8,11 +8,26 @@ http://www.cnblogs.com/zhzhao/p/4864209.html
 	生产环境优化参数
 2.看一次视频
 3.总结笔记
-
+任务完成
 
 # 代号：树结构
 1.视频看完
 2.做好笔记
 3.总结目录层次
+
+任务完成
+
+
+2017年10月12日，暂停在“硬件管理/硬件设备信息”
+
+
+
+
+
+
+
+
+
+
 
 
