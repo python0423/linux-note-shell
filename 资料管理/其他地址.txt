@@ -1,3 +1,7 @@
 https://teddysun.com/473.html   					install python2.7.13 oncentos 6.6
 http://blog.csdn.net/redguardtoo/article/details/7222501		EMACS编辑器教程
 
+nmap工具使用
+http://blog.csdn.net/swartz_lubel/article/details/75269471
+https://www.2cto.com/article/201505/396622.html
+https://www.2cto.com/article/201505/396631.html			
