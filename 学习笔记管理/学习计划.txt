@@ -27,8 +27,21 @@ http://www.cnblogs.com/zhzhao/p/4864209.html
   学习如何使用ntpd同步时间
   看看其他的关于Linux上时间日期的文章
 
-# 任务进度
+# 任务
   tcp三次握手具体含义
+  任务完成
+
+# IP协议任务
+  IP协议中的其他协议内容
+  应用层几个协议的基本内容
+  扫描，渗透关于nmap的知识
+
+# win脚本
+  window nmap脚本扫描
+  Windows脚本编程，总结一些有用的
+
+
+
 
 
   
