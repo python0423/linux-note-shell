@@ -44,12 +44,14 @@ http://www.cnblogs.com/zhzhao/p/4864209.html
   了解广播通信和组播通信的概念
   单播通信和组播通信的区别，概念等
   学习igmp协议
+任务完成
 
 # 代号：ftp
   ftp协议在Linux中的应用
   搭建Linux下的ftp服务器
   ftp常用命令与客户端
   公共ftp服务器
+任务完成
 
 
 
