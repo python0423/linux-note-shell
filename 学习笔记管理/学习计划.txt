@@ -53,6 +53,9 @@ http://www.cnblogs.com/zhzhao/p/4864209.html
   公共ftp服务器
 任务完成
 
+# 代号：摄像头
+  研究摄像头的交换机，掌握基本的命令
+
 
 
 
