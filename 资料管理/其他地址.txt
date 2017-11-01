@@ -9,3 +9,7 @@ https://www.2cto.com/article/201505/396631.html
 ftp公共服务器地址
 ftp://speedtest.tele2.net/  
 ftp://sjtu.edu.cn    		
+
+
+windows dos教程
+教程：http://www.cnblogs.com/glaivelee/archive/2009/10/07/1578737.html

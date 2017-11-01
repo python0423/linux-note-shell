@@ -35,10 +35,12 @@ http://www.cnblogs.com/zhzhao/p/4864209.html
   IP协议中的其他协议内容
   应用层几个协议的基本内容
   扫描，渗透关于nmap的知识
+任务完成
 
 # 代号：win脚本
   window nmap脚本扫描
   Windows脚本编程，总结一些有用的
+任务完成
 
 # 代号：广播与组播
   了解广播通信和组播通信的概念

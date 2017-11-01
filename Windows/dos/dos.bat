@@ -1,6 +1,5 @@
 @echo off
-chcp 437
-
+echo ½Ì³ÌµØÖ·£ºhttp://www.cnblogs.com/glaivelee/archive/2009/10/07/1578737.html
 rem color 
 rem color 0a
 rem pause
@@ -22,11 +21,11 @@ rem mode con cols=80 lines=30
 rem pause
 
 rem goto and :
-echo "where am i ?"
-goto where
-ping 127.0.0.1
-:where
-echo "dos/windows"
+rem echo "where am i ?"
+rem goto where
+rem ping 127.0.0.1
+rem :where
+rem echo "dos/windows"
 
 rem if errorlevel
 rem dir i:
@@ -49,16 +48,16 @@ rem if exist
 rem if EXIST "auto-one.bat" echo "it exists"
 rem if not EXIST "auto-one.bat" echo "it not exists"
 
-rem å˜é‡å»¶è¿Ÿ
+rem ±äÁ¿ÑÓ³Ù
 rem set a=4
 rem set a=5&echo a=%a%
-rem è¾“å‡ºaä¸º4ï¼Œå› ä¸ºæ‰¹å¤„ç†æ˜¯æŒ‰è¡Œè¯»å–
+rem Êä³öaÎª4£¬ÒòÎªÅú´¦ÀíÊÇ°´ĞĞ¶ÁÈ¡
 rem open delay setlocal=enabledelayedexpansion
 rem set b=5
 rem setlocal=enabledelayedexpansion
 rem set b=6&echo b=%b%
 
-rem å˜é‡å»¶è¿Ÿçš„åº”ç”¨ï¼šäº¤æ¢æ•°å€¼
+rem ±äÁ¿ÑÓ³ÙµÄÓ¦ÓÃ£º½»»»ÊıÖµ
 rem set c=20 & set d=12
 rem echo "before: c=%c%,d=%d%"
 rem set c=%d% & set d=%c%
@@ -70,9 +69,9 @@ rem md G:\computer\Linux-note\linux-note-shell\Windows\dos\new\hidden
 rem attrib -r +s -h  G:\computer\Linux-note\linux-note-shell\Windows\dos\new /S /D
 rem attrib G:\computer\Linux-note\linux-note-shell\Windows\dos\new
 
-rem %çš„ä½¿ç”¨
-rem %0----è¡¨ç¤ºè°ƒç”¨æ‰¹å¤„ç†è‡ªèº«,ä¼šè¿›å…¥æ— é™å¾ªç¯ä¸­;
-rem %1----è¡¨ç¤ºå‘½ä»¤è¡Œä¼ åˆ°æ‰¹å¤„ç†çš„ç¬¬ä¸€ä¸ªå‚æ•°ï¼Œ%2,3,4,5ä»¥æ­¤ç±»æ¨ï¼Œå¦‚æœæ²¡æœ‰ï¼Œåˆ™ç›¸å½“äº%0
+rem %µÄÊ¹ÓÃ
+rem %0----±íÊ¾µ÷ÓÃÅú´¦Àí×ÔÉí,»á½øÈëÎŞÏŞÑ­»·ÖĞ;
+rem %1----±íÊ¾ÃüÁîĞĞ´«µ½Åú´¦ÀíµÄµÚÒ»¸ö²ÎÊı£¬%2,3,4,5ÒÔ´ËÀàÍÆ£¬Èç¹ûÃ»ÓĞ£¬ÔòÏàµ±ÓÚ%0
 rem start %0
 rem copy %0 c:\new.txt
 rem echo "copy over"
@@ -80,60 +79,90 @@ rem echo "copy over"
 rem < and >
 rem set /p str=< %0
 rem echo %str%  
-rem å®ƒä¼šè¯»å–æ–‡ä»¶çš„ç¬¬ä¸€è¡Œï¼Œè¾“å‡º @echo off
+rem Ëü»á¶ÁÈ¡ÎÄ¼şµÄµÚÒ»ĞĞ£¬Êä³ö @echo off
 
 rem && and ||
 rem dir c:&&echo hello&& dir i:
 rem dir c:||echo hello
 
-rem ä¼˜å…ˆçº§é¡ºåºï¼š"|" > ">" > ||""
+rem ÓÅÏÈ¼¶Ë³Ğò£º"|" > ">" > ||""
 rem dir c: && dir d: > d:/new.txt
 
-rem é€—å·ç›¸å½“äºç©ºæ ¼
-rem åˆ†å·ç”¨æ¥åŒºåˆ†ä¸åŒç›®æ ‡æ‰§è¡ŒåŒä¸€ä¸ªå‘½ä»¤,å‰ä¸€ä¸ªå‘½ä»¤æ‰§è¡Œé”™è¯¯ä¸å¦ä¸å½±å“åä¸€ä¸ªçš„æ‰§è¡Œ
+rem ¶ººÅÏàµ±ÓÚ¿Õ¸ñ
+rem ·ÖºÅÓÃÀ´Çø·Ö²»Í¬Ä¿±êÖ´ĞĞÍ¬Ò»¸öÃüÁî,Ç°Ò»¸öÃüÁîÖ´ĞĞ´íÎóÓë·ñ²»Ó°ÏìºóÒ»¸öµÄÖ´ĞĞ
 rem dir c:;d:;e:
-rem å°æ‹¬å·ä¸­çš„å†…å®¹å¯ä»¥å½“åšä¸€æ¡å‘½ä»¤
+rem Ğ¡À¨ºÅÖĞµÄÄÚÈİ¿ÉÒÔµ±×öÒ»ÌõÃüÁî
 rem set a=5
 rem (
 rem set a=4
 rem echo a=!a!
 rem  )
-rem æ„Ÿå¹å·ï¼Œåœ¨å˜é‡å»¶è¿Ÿä¸­è§„é¿å»¶è¿Ÿ
+rem ¸ĞÌ¾ºÅ£¬ÔÚ±äÁ¿ÑÓ³ÙÖĞ¹æ±ÜÑÓ³Ù
 
 
 rem ================================================================
 
-rem æ ¼å¼ï¼š for (para) path %%var in (set)  do command  command-para %%var
-rem å‚æ•°ï¼š /dæœç´¢ç›®å½•ï¼Œè·³è¿‡æ–‡ä»¶ï¼Œåªæ˜¾ç¤ºå½“å‰ç›®å½•ä¸‹çš„ç›®å½•å
+rem ¸ñÊ½£º for (para) path %%var in (set)  do command  command-para %%var
+rem ²ÎÊı£º /dËÑË÷Ä¿Â¼£¬Ìø¹ıÎÄ¼ş£¬Ö»ÏÔÊ¾µ±Ç°Ä¿Â¼ÏÂµÄÄ¿Â¼Ãû
 rem for /d %%i in (g:\computer\*) do echo %%i
 
-rem å‚æ•°ï¼š /ré€’å½’æœç´¢ç›®å½•,å¦‚æœæ‹¬å·ä¸­ä¸å«æœ‰*æˆ–è€…ï¼Ÿï¼Œåˆ™æ‰“å°å‡ºç›®å½•ä¸‹æ‰€æœ‰æ–‡ä»¶ï¼Œä¸ç®¡æ˜¯å¦å­˜åœ¨ï¼Œå’Œä½¿ç”¨.å«ä¹‰ä¸€è‡´
+rem ²ÎÊı£º /rµİ¹éËÑË÷Ä¿Â¼,Èç¹ûÀ¨ºÅÖĞ²»º¬ÓĞ*»òÕß£¿£¬Ôò´òÓ¡³öÄ¿Â¼ÏÂËùÓĞÎÄ¼ş£¬²»¹ÜÊÇ·ñ´æÔÚ£¬ºÍÊ¹ÓÃ.º¬ÒåÒ»ÖÂ
 rem for /r  g:\install %%i in (.) do echo %%i
-rem ä½¿ç”¨ifæ¥åˆ¤æ–­éœ€è¦çš„ç›®å½•æ˜¯å¦å­˜åœ¨ï¼Œå­˜åœ¨åˆ™æ‰“å°
+rem Ê¹ÓÃifÀ´ÅĞ¶ÏĞèÒªµÄÄ¿Â¼ÊÇ·ñ´æÔÚ£¬´æÔÚÔò´òÓ¡
 rem for /r g:\install %%i in (*.exe) do if exist %%i echo %%i
 
-rem *è¡¨ç¤ºä»»æ„å¤šä¸ªå­—ç¬¦ï¼Œï¼Ÿè¡¨ç¤ºä»»æ„ä¸€ä¸ªå­—ç¬¦
+rem *±íÊ¾ÈÎÒâ¶à¸ö×Ö·û£¬£¿±íÊ¾ÈÎÒâÒ»¸ö×Ö·û
 rem for /d %%i in (????????) do echo %%i
 rem for  %%i in (*) do echo %%i
 
-rem å‚æ•°ï¼š /l å¢é‡äº§ç”Ÿä¸€ä¸ªæ•°å­—åºåˆ—å€¼
+rem ²ÎÊı£º /l ÔöÁ¿²úÉúÒ»¸öÊı×ÖĞòÁĞÖµ
 rem for /l %%i in (1,1,10) do echo %%i
 rem for /l %%i in (1,2,10) do echo %%i
 rem for /l %%i in (10,-2,1) do echo %%i
 rem for /l %%i in (1,1,5) do start cmd %%i
 
-rem å‚æ•°ï¼š /f æŸ¥æ‰¾æ–‡æœ¬å¹¶ä»¥æŸç§æ–¹å¼æ‰“å°
-echo :hello,world > new.txt
-echo 123 456 789 >> new.txt
-echo 789-456-123 >> new.txt
-echo 456 789 123 >> new.txt
+rem ²ÎÊı£º /f ²éÕÒÎÄ±¾²¢ÒÔÄ³ÖÖ·½Ê½´òÓ¡
+rem echo :hello,world > new.txt
+rem echo 123 456 789 >> new.txt
+rem echo 789-456-123 >> new.txt
+rem echo 456 789 123 >> new.txt
 rem for /F "eol=: tokens=1,3 delims=- " %%i in (new.txt) do echo  %%i %%j
 rem for /f "eol=: tokens=1,2 delims= " %%i in (new.txt) do echo  %%i %%j
-rem ä¸‹é¢çš„å•å¼•å·ç”¨åœ¨forä¸­ï¼Œç”¨æ¥æ‰§è¡Œå¼•å·ä¸­çš„å‘½ä»¤
+rem ÏÂÃæµÄµ¥ÒıºÅÓÃÔÚforÖĞ£¬ÓÃÀ´Ö´ĞĞÒıºÅÖĞµÄÃüÁî
 rem for /f "delims=" %%i in ('net user') do echo %%i
 
+rem ·µ»ØÃüÁîĞĞ²ÎÊı%1...%9
+rem echo %1
+rem echo %2
+rem echo %3
+rem %*Ò»´Î·µ»ØÈ«²¿²ÎÊı
+rem echo %*
+
+rem %0,·µ»Øµ±Ç°ÎÄ¼şµÄ¾ø¶ÔÂ·¾¶£¬»òÕßÊÇÎŞÏŞÑ­»·Ö´ĞĞÅú´¦ÀíÎÄ¼ş
+rem echo %0
+rem %0
+
+rem »ñÈ¡ÓÃ»§ÊäÈë,²¢¸³Öµ¸ø±äÁ¿£¬Ê¹ÓÃ/p²ÎÊı
+rem set /p var="please input username: "
 
 
+rem ÒÔÏÂ¼¸ÖÖ·½·¨×÷ÎªÑÓÊ±¹¤¾ß,>nulÊÇwindowÖĞµÄºÚ¶´
+rem echo before: %time%
+rem for /l %%i in (1,1,10000) do echo %%i>nul
+rem echo after: %time%
+
+rem echo before ping: %time%
+rem ping 127.0.0.1 >nul
+rem echo after ping: %time%
+rem goto cho
+
+rem ÑÓÊ±µÄÓ¦ÓÃ£º½ø¶ÈÌõ
+rem set /p a=?<nul±íÊ¾Ö»´òÓ¡£¿£¬²»»»ĞĞ
+rem echo #--------------------------------------#
+rem echo.
+rem for /L %%i in (1 1 38) do set /p a=?<nul&ping /n 1 127.0.0.1>nul
+rem echo.
+rem echo #--------------------------------------#
 
 
 
