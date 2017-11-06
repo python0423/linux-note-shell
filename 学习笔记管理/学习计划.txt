@@ -26,6 +26,7 @@ http://www.cnblogs.com/zhzhao/p/4864209.html
   学习如何使用ntpdate+crood来做定时同步
   学习如何使用ntpd同步时间
   看看其他的关于Linux上时间日期的文章
+延后到视频的时候完成
 
 # 代号：tcp握手
   tcp三次握手具体含义
@@ -56,11 +57,70 @@ http://www.cnblogs.com/zhzhao/p/4864209.html
 任务完成
 
 # 代号：摄像头
-  研究摄像头的交换机，掌握基本的命令
+  研究摄像头的硬盘录像机，掌握基本的命令
+
+# 代号：uuid
+  研究UUID的含义，Linux中如何使用，Windows中如何查看
+  任务完成
+
+# 代号：Linux网卡
+  网卡配置文件含义
+  IP地址，子网掩码，网关，10.0.0.0/24
+  /etc/hosts ： 配置局域网dns，简化互联网内的主机名
+  可以篡改主机名，让ping命令无法连接正确的主机
+  /etc/sysconfig/network  主机名配置文件
+  使用hostname命令修改临时生效的主机名，修改配置文件达到永久生效
+  任务完成
+
+# 代号：挂载设备
+  学会如何挂载，如何挂载设备
+  df-h  查看磁盘信息
+  /etc/fstab  文件系统静态信息，设置开机自动挂载磁盘分区，这个文件好好研究，每一列都要理解
+  mount 命令挂载磁盘
+  df 命令
+  mkfs 格式化命令
+  fsck命令，dmesg命令
+
+# 代号：档案
+  建立rc.local档案文件，让用户知道服务器跑着什么文件，注释并备份
+
+# 代号：etc下的文件
+  研究etc下的重要配置文件 ，仔细研究
+  ln命令，创建符号链接
+  任务完成
+
+# 代号：再遇find
+  find命令查找时间，mtime的使用
+  重新精简find笔记， 重新思考训练find命令；
+
+# 代号：打印行号
+  1. nl打印行号
+  2. cat -n 
+  3. grep "." 
+  4. less -N
+  5. awk "{print NR,$0}"
+  6. vi filename; set number
+  7. sed "=" filename
+任务完成
+
+# 代号：chkconfig
+  chkconfig核心原理与rc.d的关联，第九集好好钻研
+  chkconfig管理脚本 第十集
 
 
+# 代号：优化战争
+  优化Linux，并总结笔记
 
 
+# 代号：解压和压缩文件命令
+  tar,zip,unzip，gzip
+
+
+AWK的多分隔符用法
+AWK必杀技：http://oldboy.blog.51cto.com/2561410/950730
+以及其他老男孩关于awk的相关博客
+sed必杀技：http://oldboy.blog.51cto.com/2561410/949365
+egrep命令
 
 
   

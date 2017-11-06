@@ -1,0 +1,16 @@
+目录
+  blkid: 显示挂载设备的uuid号码
+  default: 里面的useradd文件存放着创建用户时默认的配置
+  selinux: 这个目录里存放着selinux的配置文件，在config下可以关闭或开启selinux
+  sysconfig: 系统配置文件，这里包含着系统配置常用的一些文件，防火墙，语言配置，时区配置，网络配置等；
+  yum.repos.d: 配置yum源的目录
+
+文件
+  filesystems: 存放着Linux支持的文件系统格式
+  fstab: 打印出每个分区下挂载的文件系统，相当于Windows中的磁盘分区表
+  hosts: 存放着dns和ip地址之间的转换目录
+  inittab: 存放着系统启动哪个运行等级
+  login.defs: 存放着设置文件，设置添加用户时的默认配置文件
+  services: 存放着tcp和udp网络服务对应的端口号
+  sudoers:  设置普通用户可使用的管理员权限
+  
