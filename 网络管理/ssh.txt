@@ -1,0 +1,4 @@
+yum install openssl openssh 安装ssh客户端和密码库
+sz：将选定的文件下载到window中
+rz: 将指定的文件上传到Linux目录上
+sz,rz使用yun install lrzsz –y 来安装

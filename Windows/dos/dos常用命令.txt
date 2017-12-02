@@ -1,0 +1,19 @@
+gpedit.msc	组策略
+nslookup	ip地址查看器
+explorer	打开计算机
+lusrmgr	   	本地用户和组
+services	打开服务
+calc		打开计算器
+devmgmt		设备管理器
+regedit		注册表管理器
+msconfig	配置系统启动服务
+rsop		组策略集合
+winver		Windows版本信息
+taskmgr		任务管理器
+sfc /scannow	扫描错误并还原
+mspaint		打开画图软件
+magnify		打开放大镜
+narrator	启用讲述人
+eventvwr	事件查看器
+logoff		   注销
+
