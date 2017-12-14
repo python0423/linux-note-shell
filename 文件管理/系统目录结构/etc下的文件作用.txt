@@ -4,13 +4,40 @@
   selinux: 这个目录里存放着selinux的配置文件，在config下可以关闭或开启selinux
   sysconfig: 系统配置文件，这里包含着系统配置常用的一些文件，防火墙，语言配置，时区配置，网络配置等；
   yum.repos.d: 配置yum源的目录
+  init.d: 使用yum和rpm安装的软件，都会放在这里
+  profile.d: profile的配置文件，这是个目录，存放开机启动后系统变量的脚本
+  hosts 是负责dns解析的文件；
+  sysconfig/network是管理主机名的文件；
+
+
+
 
 文件
   filesystems: 存放着Linux支持的文件系统格式
-  fstab: 打印出每个分区下挂载的文件系统，相当于Windows中的磁盘分区表
+  fstab: 打印出每个分区下挂载的文件系统，相当于Windows中的磁盘分区表，设置开机自动挂载
+磁盘的配置文件
+  六列信息：挂载设备  挂在分区  文件系统类型  设置属性(读写等)  是否备份  是否开机自检
+可以在这个文件下进行uuid读写，一般使用blkid命令查看uuid
   hosts: 存放着dns和ip地址之间的转换目录
   inittab: 存放着系统启动哪个运行等级
   login.defs: 存放着设置文件，设置添加用户时的默认配置文件
   services: 存放着tcp和udp网络服务对应的端口号
   sudoers:  设置普通用户可使用的管理员权限
+  inittab: 修改开机启动运行等级
+  rc.local: 作为服务器的档案文件，把需要开机启动的文件放在这里
+  profile: 系统变量的配置文件，环境变量都放在这里，比如字符集，超时时间，历史记录数量等；和这个文件对应的目录是/etc/profile.d/,这个目录下基本放的是脚本程序，每一次的用户登录都会执行这个目录中的脚本，相当于初始化系统变量；在/etc/profile 中定义别名生效
+  motd： 用户登录时显示的字符串
+  issue： 开机登录提示系统信息，可以清空
+  sudoers: 配置普通用户权限，使用visudo来改，会有语法检查，visudo –c 检查语法
+  /etc/securetty 选择root可以登录哪些终端
+  /etc/login.defs 所有用户登录时的默认配置
+  /etc/syslog.conf  cent5日志文件
+  /etc/rsyslog.conf  cent6日志文件
+  sysconfig是系统配置目录
+
   
+  
+
+
+
+

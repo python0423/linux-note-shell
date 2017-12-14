@@ -1,8 +1,4 @@
-  UUID 是统一的设备标识符，用来唯一区别设备，适用于分布式系统；在Linux中使用blkid命令来查看设备的uuid，也可以使用/etc/fstab来读取uuid（更详细）
 
-  /etc/hosts 是负责dns解析的文件；/etc/sysconfig/network是管理主机名的文件；
-
-  在/etc/profile 中定义别名生效
 
   tail -f 和-F 有区别，后者会在文件丢失时进行重试  
 

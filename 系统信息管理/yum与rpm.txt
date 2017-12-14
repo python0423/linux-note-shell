@@ -1,0 +1,26 @@
+yum包管理器
+1. 它可以安装时自动解决依赖关系，但是删除时也会自动删除依赖关系
+yum install p1,p2 同时安装多个包
+yum install g1,g2 安装程序组
+yum update 更新所有软件和系统
+yum update p1 更新p1
+yum list 显示所有已安装的包
+yum search string 查找包
+yum deplist p1 列出p1包依赖
+yum remove p1 删除p1
+yum groupremove g1 删除组g1
+yum repolist 列出系统上源
+参数：
+-q 不显示安装过程
+
+
+RPM安装
+1.rpm -i p1  安装
+2.rpm -iv p1 安装p1,并显示过程
+3.rpm -e p1 删除
+4.rpm -qa 查看已安装文件包
+5.rpm -q p1 查看p1包是否已安装
+
+
+
+
